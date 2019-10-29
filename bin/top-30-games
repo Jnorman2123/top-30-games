@@ -1,1 +1,5 @@
 #!/usr/bin/env ruby
+
+require "./lib/top_30_games"
+
+Top30Games::CLI.new.call

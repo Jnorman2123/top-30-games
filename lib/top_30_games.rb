@@ -1,6 +1,2 @@
-require "top_30_games/version"
-
-module Top30Games
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "top_30_games/version"
+require_relative "./top_30_games/cli"
